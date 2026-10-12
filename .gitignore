@@ -1,0 +1,19 @@
+# 🔒 NUNCA mande senhas e chaves para a internet!
+.env
+.aws/
+credentials
+*.pem
+secrets.json
+
+# Pastas que não precisam ir
+node_modules/
+_pycache_/
+.venv/
+.aws-sam/
+cdk.out/
+dist/
+
+# Arquivos do computador
+.DS_Store
+Thumbs.db
+*.log
